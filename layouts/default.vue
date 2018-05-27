@@ -46,7 +46,7 @@
       </v-btn>
     </v-toolbar>
     <v-jumbotron
-      v-if="$route.path == '/'"
+      v-if="$route.path == '/', 'kilas-balik'"
       :gradient="gradientJumbotron"
       :src="imageJumbotron"
       v-scroll="onScroll"
