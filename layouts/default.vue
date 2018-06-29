@@ -59,7 +59,7 @@
               <br> Lead to Inspire Story
             </h1>
             <h2 class="subtitle">
-              <small>This time we'll hear story from</small> Surabaya
+              <small>This time we'll hear story from</small> Jakarta
             </h2>
             <v-btn href="/inspire" color="error" large round depressed>Daftar Sekarang</v-btn>
           </v-flex>
@@ -86,7 +86,7 @@ export default {
       navDrawer: false,
       scroll: 0,
       gradientJumbotron: 'to right, #da22ff99, #9733ee99',
-      imageJumbotron: '/images/surabaya.jpg'
+      imageJumbotron: '/images/background-monas.jpg'
     }
   },
   computed: {
@@ -130,8 +130,8 @@ nav
       font-size 40px !important
 
 .accent.transparent
-  background-color #2c3e50cc !important
+  background-color #2c3e50 !important
 
 .padding-page
-  padding-top 0 !important
+  padding-top 60px !important
 </style>
